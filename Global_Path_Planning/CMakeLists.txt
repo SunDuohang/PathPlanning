@@ -12,4 +12,4 @@ message(STATUS "    version: ${GDAL_VERSION}")
 message(STATUS "    libraries: ${GDAL_LIBRARY}")
 message(STATUS "    include path: ${GDAL_INCLUDE_DIRS}")
 
-add_executable(Global_Path_Planning main.cpp src/CoorTransform.cpp include/CoorTransform.h include/MapLoad.h src/MapLoad.cpp src/MapLoad.h app/main.h)
+add_executable(Global_Path_Planning main.cpp src/CoorTransform.cpp include/CoorTransform.h include/MapLoad.h src/MapLoad.cpp app/main.h)

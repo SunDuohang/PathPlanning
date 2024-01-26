@@ -87,5 +87,39 @@ class Open_list_Item{
     double self_f_value = 0.0;
 };
 
+template<class T>
+struct greater1{
+    constexpr bool operator()(Record_Item<T> lhs, const Record_Item<T>& rhs ) const{
+        return lhs.self_f_value > rhs.self_f_value;
+    }
+};
+
+template<class T>
+struct greater2{
+    constexpr bool operator()(Open_list_Item<T> lhs, const Open_list_Item<T>& rhs ) const{
+        return lhs.self_f_value > rhs.self_f_value;
+    }
+};
+
+template <class T>
+struct less1{
+    constexpr bool operator()(Record_Item<T> lhs, const Record_Item<T>& rhs ) const{
+        return lhs.self_f_value < rhs.self_f_value;
+    }
+};
+
+template <class T>
+struct less2{
+    constexpr bool operator()(Open_list_Item<T> lhs, const Open_list_Item<T>& rhs ) const{
+        return lhs.self_f_value < rhs.self_f_value;
+    }
+};
+
+template <class T>
+struct equal1{
+    constexpr bool operator()(Node<T> lhs, const Node<T>& rhs ) const{
+        return (lhs.x == rhs.x && lhs.y == rhs.y);
+    }
+};
 
 #endif //PATHPLANNING_DATASTRUCTURE_HPP

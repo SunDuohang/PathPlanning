@@ -36,9 +36,14 @@ namespace utils
      * @param img_save_path
      * @return cv::Mat
      */
-    //cv::Mat visualizePath(int* path, int len, bool* map, int* map_size_wh, std::string img_save_path="../output/dstImg.png");
-    cv::Mat visualizePath(int* path, int len, int** map, int map_xsize, int map_ysize, const char* filename);
+    cv::Mat visualizePath(int* path, int len, bool* map, int* map_size_wh, std::string img_save_path="../output/dstImg.png");
 
+    cv::Mat visualizeMap(int** map, int map_width, int map_height, std::string img_save_path="../output/mapImg.png");
+
+    cv::Mat visualizePath(int* path, int len, int** map, int map_width, int map_height, std::string img_save_path="../output/pathImg.png");
+    cv::Mat visualizePoints(int* path, int len, int** map, int map_width, int map_height, std::string img_save_path="../output/pathImg.png");
+    template <class T>
+    cv::Mat visualizePath(std::vector<Node<T> > path, int** map, int map_xsize, int map_ysize, std::string img_save_path="../output/dstImg.png");
 //    template <class T>
 //    cv::Mat visualizePath(std::vector<Node<T> > path, int** map, int map_xsize, int map_ysize, std::string img_save_path="../output/dstImg.png");
 }

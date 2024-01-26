@@ -1,0 +1,448 @@
+../map_txt/empty_32x32.txt	strat_point-target_point: [0, 31]-[0, 0]	open_list size: 31	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [1, 31]-[0, 0]	open_list size: 62	 close_list size: 33	path_size: 32	
+../map_txt/empty_32x32.txt	strat_point-target_point: [2, 31]-[0, 0]	open_list size: 60	 close_list size: 96	path_size: 33	
+../map_txt/empty_32x32.txt	strat_point-target_point: [3, 31]-[0, 0]	open_list size: 35	 close_list size: 174	path_size: 34	
+../map_txt/empty_32x32.txt	strat_point-target_point: [4, 31]-[0, 0]	open_list size: 35	 close_list size: 218	path_size: 35	
+../map_txt/empty_32x32.txt	strat_point-target_point: [5, 31]-[0, 0]	open_list size: 32	 close_list size: 263	path_size: 36	
+../map_txt/empty_32x32.txt	strat_point-target_point: [6, 31]-[0, 0]	open_list size: 60	 close_list size: 275	path_size: 37	
+../map_txt/empty_32x32.txt	strat_point-target_point: [7, 31]-[0, 0]	open_list size: 33	 close_list size: 344	path_size: 38	
+../map_txt/empty_32x32.txt	strat_point-target_point: [8, 31]-[0, 0]	open_list size: 40	 close_list size: 377	path_size: 39	
+../map_txt/empty_32x32.txt	strat_point-target_point: [9, 31]-[0, 0]	open_list size: 50	 close_list size: 406	path_size: 40	
+../map_txt/empty_32x32.txt	strat_point-target_point: [10, 31]-[0, 0]	open_list size: 33	 close_list size: 462	path_size: 41	
+../map_txt/empty_32x32.txt	strat_point-target_point: [11, 31]-[0, 0]	open_list size: 39	 close_list size: 492	path_size: 42	
+../map_txt/empty_32x32.txt	strat_point-target_point: [12, 31]-[0, 0]	open_list size: 40	 close_list size: 530	path_size: 43	
+../map_txt/empty_32x32.txt	strat_point-target_point: [13, 31]-[0, 0]	open_list size: 61	 close_list size: 543	path_size: 44	
+../map_txt/empty_32x32.txt	strat_point-target_point: [14, 31]-[0, 0]	open_list size: 36	 close_list size: 607	path_size: 45	
+../map_txt/empty_32x32.txt	strat_point-target_point: [15, 31]-[0, 0]	open_list size: 59	 close_list size: 619	path_size: 46	
+../map_txt/empty_32x32.txt	strat_point-target_point: [16, 31]-[0, 0]	open_list size: 36	 close_list size: 677	path_size: 47	
+../map_txt/empty_32x32.txt	strat_point-target_point: [17, 31]-[0, 0]	open_list size: 42	 close_list size: 706	path_size: 48	
+../map_txt/empty_32x32.txt	strat_point-target_point: [18, 31]-[0, 0]	open_list size: 48	 close_list size: 736	path_size: 49	
+../map_txt/empty_32x32.txt	strat_point-target_point: [19, 31]-[0, 0]	open_list size: 42	 close_list size: 776	path_size: 50	
+../map_txt/empty_32x32.txt	strat_point-target_point: [20, 31]-[0, 0]	open_list size: 47	 close_list size: 805	path_size: 51	
+../map_txt/empty_32x32.txt	strat_point-target_point: [21, 31]-[0, 0]	open_list size: 47	 close_list size: 841	path_size: 52	
+../map_txt/empty_32x32.txt	strat_point-target_point: [22, 31]-[0, 0]	open_list size: 33	 close_list size: 889	path_size: 53	
+../map_txt/empty_32x32.txt	strat_point-target_point: [23, 31]-[0, 0]	open_list size: 38	 close_list size: 910	path_size: 54	
+../map_txt/empty_32x32.txt	strat_point-target_point: [24, 31]-[0, 0]	open_list size: 25	 close_list size: 944	path_size: 55	
+../map_txt/empty_32x32.txt	strat_point-target_point: [25, 31]-[0, 0]	open_list size: 29	 close_list size: 956	path_size: 56	
+../map_txt/empty_32x32.txt	strat_point-target_point: [26, 31]-[0, 0]	open_list size: 30	 close_list size: 968	path_size: 57	
+../map_txt/empty_32x32.txt	strat_point-target_point: [27, 31]-[0, 0]	open_list size: 59	 close_list size: 949	path_size: 58	
+../map_txt/empty_32x32.txt	strat_point-target_point: [28, 31]-[0, 0]	open_list size: 61	 close_list size: 955	path_size: 59	
+../map_txt/empty_32x32.txt	strat_point-target_point: [29, 31]-[0, 0]	open_list size: 59	 close_list size: 961	path_size: 60	
+../map_txt/empty_32x32.txt	strat_point-target_point: [30, 31]-[0, 0]	open_list size: 62	 close_list size: 961	path_size: 61	
+../map_txt/empty_32x32.txt	strat_point-target_point: [31, 31]-[0, 0]	open_list size: 61	 close_list size: 963	path_size: 62	
+../map_txt/empty_32x32.txt	strat_point-target_point: [0, 31]-[0, 0]	open_list size: 32	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [1, 31]-[0, 0]	open_list size: 60	 close_list size: 36	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [2, 31]-[0, 0]	open_list size: 39	 close_list size: 110	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [3, 31]-[0, 0]	open_list size: 57	 close_list size: 121	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [4, 31]-[0, 0]	open_list size: 72	 close_list size: 142	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [5, 31]-[0, 0]	open_list size: 49	 close_list size: 195	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [6, 31]-[0, 0]	open_list size: 58	 close_list size: 209	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [7, 31]-[0, 0]	open_list size: 77	 close_list size: 209	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [8, 31]-[0, 0]	open_list size: 77	 close_list size: 231	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [9, 31]-[0, 0]	open_list size: 82	 close_list size: 242	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [10, 31]-[0, 0]	open_list size: 67	 close_list size: 276	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [11, 31]-[0, 0]	open_list size: 84	 close_list size: 271	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [12, 31]-[0, 0]	open_list size: 86	 close_list size: 276	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [13, 31]-[0, 0]	open_list size: 86	 close_list size: 287	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [14, 31]-[0, 0]	open_list size: 89	 close_list size: 289	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [15, 31]-[0, 0]	open_list size: 91	 close_list size: 295	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [16, 31]-[0, 0]	open_list size: 92	 close_list size: 295	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [17, 31]-[0, 0]	open_list size: 94	 close_list size: 297	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [18, 31]-[0, 0]	open_list size: 95	 close_list size: 292	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [19, 31]-[0, 0]	open_list size: 99	 close_list size: 286	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [20, 31]-[0, 0]	open_list size: 101	 close_list size: 279	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [21, 31]-[0, 0]	open_list size: 98	 close_list size: 271	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [22, 31]-[0, 0]	open_list size: 101	 close_list size: 260	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [23, 31]-[0, 0]	open_list size: 104	 close_list size: 245	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [24, 31]-[0, 0]	open_list size: 107	 close_list size: 227	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [25, 31]-[0, 0]	open_list size: 110	 close_list size: 206	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [26, 31]-[0, 0]	open_list size: 110	 close_list size: 182	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [27, 31]-[0, 0]	open_list size: 113	 close_list size: 153	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [28, 31]-[0, 0]	open_list size: 114	 close_list size: 127	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [29, 31]-[0, 0]	open_list size: 119	 close_list size: 85	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [30, 31]-[0, 0]	open_list size: 121	 close_list size: 34	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [31, 31]-[0, 0]	open_list size: 122	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [0, 31]-[0, 0]	open_list size: 64	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [1, 31]-[0, 0]	open_list size: 83	 close_list size: 44	path_size: 30	
+../map_txt/empty_32x32.txt	strat_point-target_point: [2, 31]-[0, 0]	open_list size: 88	 close_list size: 80	path_size: 29	
+../map_txt/empty_32x32.txt	strat_point-target_point: [3, 31]-[0, 0]	open_list size: 98	 close_list size: 98	path_size: 28	
+../map_txt/empty_32x32.txt	strat_point-target_point: [4, 31]-[0, 0]	open_list size: 104	 close_list size: 114	path_size: 27	
+../map_txt/empty_32x32.txt	strat_point-target_point: [5, 31]-[0, 0]	open_list size: 111	 close_list size: 126	path_size: 26	
+../map_txt/empty_32x32.txt	strat_point-target_point: [6, 31]-[0, 0]	open_list size: 105	 close_list size: 151	path_size: 25	
+../map_txt/empty_32x32.txt	strat_point-target_point: [7, 31]-[0, 0]	open_list size: 113	 close_list size: 156	path_size: 24	
+../map_txt/empty_32x32.txt	strat_point-target_point: [8, 31]-[0, 0]	open_list size: 114	 close_list size: 161	path_size: 23	
+../map_txt/empty_32x32.txt	strat_point-target_point: [9, 31]-[0, 0]	open_list size: 126	 close_list size: 145	path_size: 22	
+../map_txt/empty_32x32.txt	strat_point-target_point: [10, 31]-[0, 0]	open_list size: 130	 close_list size: 142	path_size: 21	
+../map_txt/empty_32x32.txt	strat_point-target_point: [11, 31]-[0, 0]	open_list size: 124	 close_list size: 143	path_size: 20	
+../map_txt/empty_32x32.txt	strat_point-target_point: [12, 31]-[0, 0]	open_list size: 133	 close_list size: 127	path_size: 19	
+../map_txt/empty_32x32.txt	strat_point-target_point: [13, 31]-[0, 0]	open_list size: 138	 close_list size: 108	path_size: 18	
+../map_txt/empty_32x32.txt	strat_point-target_point: [14, 31]-[0, 0]	open_list size: 146	 close_list size: 64	path_size: 17	
+../map_txt/empty_32x32.txt	strat_point-target_point: [15, 31]-[0, 0]	open_list size: 150	 close_list size: 42	path_size: 16	
+../map_txt/empty_32x32.txt	strat_point-target_point: [16, 31]-[0, 0]	open_list size: 154	 close_list size: 25	path_size: 16	
+../map_txt/empty_32x32.txt	strat_point-target_point: [17, 31]-[0, 0]	open_list size: 157	 close_list size: 67	path_size: 17	
+../map_txt/empty_32x32.txt	strat_point-target_point: [18, 31]-[0, 0]	open_list size: 158	 close_list size: 85	path_size: 18	
+../map_txt/empty_32x32.txt	strat_point-target_point: [19, 31]-[0, 0]	open_list size: 161	 close_list size: 100	path_size: 19	
+../map_txt/empty_32x32.txt	strat_point-target_point: [20, 31]-[0, 0]	open_list size: 161	 close_list size: 116	path_size: 20	
+../map_txt/empty_32x32.txt	strat_point-target_point: [21, 31]-[0, 0]	open_list size: 164	 close_list size: 130	path_size: 21	
+../map_txt/empty_32x32.txt	strat_point-target_point: [22, 31]-[0, 0]	open_list size: 166	 close_list size: 137	path_size: 22	
+../map_txt/empty_32x32.txt	strat_point-target_point: [23, 31]-[0, 0]	open_list size: 170	 close_list size: 145	path_size: 23	
+../map_txt/empty_32x32.txt	strat_point-target_point: [24, 31]-[0, 0]	open_list size: 171	 close_list size: 144	path_size: 24	
+../map_txt/empty_32x32.txt	strat_point-target_point: [25, 31]-[0, 0]	open_list size: 172	 close_list size: 141	path_size: 25	
+../map_txt/empty_32x32.txt	strat_point-target_point: [26, 31]-[0, 0]	open_list size: 173	 close_list size: 126	path_size: 26	
+../map_txt/empty_32x32.txt	strat_point-target_point: [27, 31]-[0, 0]	open_list size: 176	 close_list size: 112	path_size: 27	
+../map_txt/empty_32x32.txt	strat_point-target_point: [28, 31]-[0, 0]	open_list size: 179	 close_list size: 94	path_size: 28	
+../map_txt/empty_32x32.txt	strat_point-target_point: [29, 31]-[0, 0]	open_list size: 182	 close_list size: 84	path_size: 29	
+../map_txt/empty_32x32.txt	strat_point-target_point: [30, 31]-[0, 0]	open_list size: 181	 close_list size: 31	path_size: 30	
+../map_txt/empty_32x32.txt	strat_point-target_point: [31, 31]-[0, 0]	open_list size: 180	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [0, 31]-[0, 0]	open_list size: 96	 close_list size: 32	path_size: 31	
+../map_txt/empty_32x32.txt	strat_point-target_point: [1, 31]-[0, 0]	open_list size: 125	 close_list size: 34	path_size: 29	
+../map_txt/empty_32x32.txt	strat_point-target_point: [2, 31]-[0, 0]	open_list size: 125	 close_list size: 65	path_size: 27	
+../map_txt/empty_32x32.txt	strat_point-target_point: [3, 31]-[0, 0]	open_list size: 136	 close_list size: 81	path_size: 25	
+../map_txt/empty_32x32.txt	strat_point-target_point: [4, 31]-[0, 0]	open_list size: 146	 close_list size: 91	path_size: 23	
+../map_txt/empty_32x32.txt	strat_point-target_point: [5, 31]-[0, 0]	open_list size: 157	 close_list size: 95	path_size: 21	
+../map_txt/empty_32x32.txt	strat_point-target_point: [6, 31]-[0, 0]	open_list size: 160	 close_list size: 99	path_size: 19	
+../map_txt/empty_32x32.txt	strat_point-target_point: [7, 31]-[0, 0]	open_list size: 173	 close_list size: 95	path_size: 17	
+../map_txt/empty_32x32.txt	strat_point-target_point: [8, 31]-[0, 0]	open_list size: 185	 close_list size: 78	path_size: 15	
+../map_txt/empty_32x32.txt	strat_point-target_point: [9, 31]-[0, 0]	open_list size: 197	 close_list size: 55	path_size: 13	
+../map_txt/empty_32x32.txt	strat_point-target_point: [10, 31]-[0, 0]	open_list size: 209	 close_list size: 20	path_size: 11	
+../map_txt/empty_32x32.txt	strat_point-target_point: [11, 31]-[0, 0]	open_list size: 216	 close_list size: 23	path_size: 11	
+../map_txt/empty_32x32.txt	strat_point-target_point: [12, 31]-[0, 0]	open_list size: 221	 close_list size: 40	path_size: 12	
+../map_txt/empty_32x32.txt	strat_point-target_point: [13, 31]-[0, 0]	open_list size: 225	 close_list size: 48	path_size: 13	
+../map_txt/empty_32x32.txt	strat_point-target_point: [14, 31]-[0, 0]	open_list size: 229	 close_list size: 43	path_size: 14	
+../map_txt/empty_32x32.txt	strat_point-target_point: [15, 31]-[0, 0]	open_list size: 216	 close_list size: 20	path_size: 15	
+../map_txt/empty_32x32.txt	strat_point-target_point: [16, 31]-[0, 0]	open_list size: 220	 close_list size: 19	path_size: 15	
+../map_txt/empty_32x32.txt	strat_point-target_point: [17, 31]-[0, 0]	open_list size: 242	 close_list size: 38	path_size: 14	
+../map_txt/empty_32x32.txt	strat_point-target_point: [18, 31]-[0, 0]	open_list size: 245	 close_list size: 45	path_size: 13	
+../map_txt/empty_32x32.txt	strat_point-target_point: [19, 31]-[0, 0]	open_list size: 248	 close_list size: 43	path_size: 12	
+../map_txt/empty_32x32.txt	strat_point-target_point: [20, 31]-[0, 0]	open_list size: 251	 close_list size: 20	path_size: 11	
+../map_txt/empty_32x32.txt	strat_point-target_point: [21, 31]-[0, 0]	open_list size: 252	 close_list size: 19	path_size: 11	
+../map_txt/empty_32x32.txt	strat_point-target_point: [22, 31]-[0, 0]	open_list size: 264	 close_list size: 52	path_size: 13	
+../map_txt/empty_32x32.txt	strat_point-target_point: [23, 31]-[0, 0]	open_list size: 268	 close_list size: 73	path_size: 15	
+../map_txt/empty_32x32.txt	strat_point-target_point: [24, 31]-[0, 0]	open_list size: 273	 close_list size: 86	path_size: 17	
+../map_txt/empty_32x32.txt	strat_point-target_point: [25, 31]-[0, 0]	open_list size: 276	 close_list size: 91	path_size: 19	
+../map_txt/empty_32x32.txt	strat_point-target_point: [26, 31]-[0, 0]	open_list size: 279	 close_list size: 94	path_size: 21	
+../map_txt/empty_32x32.txt	strat_point-target_point: [27, 31]-[0, 0]	open_list size: 283	 close_list size: 90	path_size: 23	
+../map_txt/empty_32x32.txt	strat_point-target_point: [28, 31]-[0, 0]	open_list size: 288	 close_list size: 78	path_size: 25	
+../map_txt/empty_32x32.txt	strat_point-target_point: [29, 31]-[0, 0]	open_list size: 297	 close_list size: 66	path_size: 27	
+../map_txt/empty_32x32.txt	strat_point-target_point: [30, 31]-[0, 0]	open_list size: 293	 close_list size: 37	path_size: 29	
+../map_txt/empty_32x32.txt	strat_point-target_point: [31, 31]-[0, 0]	open_list size: 290	 close_list size: 32	path_size: 31	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [0, 30]-[1, 1]	open_list size: 29	 close_list size: 134	path_size: 36	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [2, 30]-[1, 1]	open_list size: 26	 close_list size: 146	path_size: 36	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [4, 29]-[1, 1]	open_list size: 27	 close_list size: 205	path_size: 37	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [6, 30]-[1, 1]	open_list size: 25	 close_list size: 226	path_size: 38	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [8, 30]-[1, 1]	open_list size: 33	 close_list size: 225	path_size: 38	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [10, 31]-[1, 1]	open_list size: 36	 close_list size: 255	path_size: 41	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [12, 30]-[1, 1]	open_list size: 47	 close_list size: 315	path_size: 44	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [14, 29]-[1, 1]	open_list size: 54	 close_list size: 362	path_size: 43	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [16, 30]-[1, 1]	open_list size: 49	 close_list size: 374	path_size: 44	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [18, 30]-[1, 1]	open_list size: 45	 close_list size: 407	path_size: 46	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [20, 30]-[1, 1]	open_list size: 47	 close_list size: 480	path_size: 48	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [22, 30]-[1, 1]	open_list size: 50	 close_list size: 498	path_size: 50	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [24, 31]-[1, 1]	open_list size: 39	 close_list size: 523	path_size: 53	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [26, 30]-[1, 1]	open_list size: 42	 close_list size: 516	path_size: 56	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [28, 31]-[1, 1]	open_list size: 39	 close_list size: 521	path_size: 57	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [30, 31]-[1, 1]	open_list size: 36	 close_list size: 525	path_size: 59	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [1, 30]-[1, 1]	open_list size: 29	 close_list size: 130	path_size: 35	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [3, 31]-[1, 1]	open_list size: 26	 close_list size: 147	path_size: 38	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [5, 30]-[1, 1]	open_list size: 29	 close_list size: 205	path_size: 37	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [7, 31]-[1, 1]	open_list size: 32	 close_list size: 220	path_size: 38	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [9, 31]-[1, 1]	open_list size: 37	 close_list size: 256	path_size: 40	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [11, 29]-[1, 1]	open_list size: 37	 close_list size: 296	path_size: 40	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [13, 30]-[1, 1]	open_list size: 47	 close_list size: 315	path_size: 43	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [15, 31]-[1, 1]	open_list size: 52	 close_list size: 359	path_size: 44	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [17, 31]-[1, 1]	open_list size: 41	 close_list size: 409	path_size: 46	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [19, 30]-[1, 1]	open_list size: 46	 close_list size: 435	path_size: 47	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [21, 31]-[1, 1]	open_list size: 42	 close_list size: 496	path_size: 50	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [23, 31]-[1, 1]	open_list size: 40	 close_list size: 522	path_size: 52	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [25, 31]-[1, 1]	open_list size: 40	 close_list size: 515	path_size: 54	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [27, 31]-[1, 1]	open_list size: 37	 close_list size: 517	path_size: 56	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [29, 31]-[1, 1]	open_list size: 41	 close_list size: 513	path_size: 58	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [31, 30]-[1, 1]	open_list size: 39	 close_list size: 517	path_size: 61	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [0, 30]-[1, 1]	open_list size: 36	 close_list size: 82	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [2, 30]-[1, 1]	open_list size: 43	 close_list size: 95	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [4, 29]-[1, 1]	open_list size: 41	 close_list size: 142	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [6, 30]-[1, 1]	open_list size: 54	 close_list size: 144	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [8, 30]-[1, 1]	open_list size: 52	 close_list size: 131	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [10, 31]-[1, 1]	open_list size: 47	 close_list size: 135	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [12, 30]-[1, 1]	open_list size: 55	 close_list size: 151	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [14, 29]-[1, 1]	open_list size: 61	 close_list size: 160	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [16, 30]-[1, 1]	open_list size: 60	 close_list size: 162	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [18, 30]-[1, 1]	open_list size: 65	 close_list size: 167	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [20, 30]-[1, 1]	open_list size: 76	 close_list size: 143	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [22, 30]-[1, 1]	open_list size: 75	 close_list size: 135	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [24, 31]-[1, 1]	open_list size: 72	 close_list size: 129	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [26, 30]-[1, 1]	open_list size: 77	 close_list size: 131	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [28, 31]-[1, 1]	open_list size: 84	 close_list size: 111	path_size: 31	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [30, 31]-[1, 1]	open_list size: 85	 close_list size: 112	path_size: 32	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [1, 30]-[1, 1]	open_list size: 37	 close_list size: 85	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [3, 31]-[1, 1]	open_list size: 42	 close_list size: 91	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [5, 30]-[1, 1]	open_list size: 44	 close_list size: 141	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [7, 31]-[1, 1]	open_list size: 48	 close_list size: 128	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [9, 31]-[1, 1]	open_list size: 45	 close_list size: 139	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [11, 29]-[1, 1]	open_list size: 58	 close_list size: 142	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [13, 30]-[1, 1]	open_list size: 61	 close_list size: 169	path_size: 29	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [15, 31]-[1, 1]	open_list size: 61	 close_list size: 182	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [17, 31]-[1, 1]	open_list size: 65	 close_list size: 170	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [19, 30]-[1, 1]	open_list size: 80	 close_list size: 189	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [21, 31]-[1, 1]	open_list size: 78	 close_list size: 149	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [23, 31]-[1, 1]	open_list size: 75	 close_list size: 134	path_size: 30	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [25, 31]-[1, 1]	open_list size: 64	 close_list size: 165	path_size: 31	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [27, 31]-[1, 1]	open_list size: 78	 close_list size: 145	path_size: 31	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [29, 31]-[1, 1]	open_list size: 85	 close_list size: 120	path_size: 32	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [31, 30]-[1, 1]	open_list size: 86	 close_list size: 127	path_size: 33	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [0, 30]-[1, 1]	open_list size: 47	 close_list size: 62	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [2, 30]-[1, 1]	open_list size: 59	 close_list size: 74	path_size: 25	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [4, 29]-[1, 1]	open_list size: 60	 close_list size: 110	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [6, 30]-[1, 1]	open_list size: 74	 close_list size: 100	path_size: 24	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [8, 30]-[1, 1]	open_list size: 71	 close_list size: 88	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [10, 31]-[1, 1]	open_list size: 74	 close_list size: 89	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [12, 30]-[1, 1]	open_list size: 74	 close_list size: 87	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [14, 29]-[1, 1]	open_list size: 73	 close_list size: 84	path_size: 21	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [16, 30]-[1, 1]	open_list size: 100	 close_list size: 99	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [18, 30]-[1, 1]	open_list size: 95	 close_list size: 109	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [20, 30]-[1, 1]	open_list size: 96	 close_list size: 84	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [22, 30]-[1, 1]	open_list size: 89	 close_list size: 87	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [24, 31]-[1, 1]	open_list size: 91	 close_list size: 94	path_size: 25	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [26, 30]-[1, 1]	open_list size: 99	 close_list size: 136	path_size: 27	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [28, 31]-[1, 1]	open_list size: 105	 close_list size: 103	path_size: 27	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [30, 31]-[1, 1]	open_list size: 104	 close_list size: 97	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [1, 30]-[1, 1]	open_list size: 45	 close_list size: 64	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [3, 31]-[1, 1]	open_list size: 57	 close_list size: 76	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [5, 30]-[1, 1]	open_list size: 70	 close_list size: 100	path_size: 24	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [7, 31]-[1, 1]	open_list size: 69	 close_list size: 90	path_size: 25	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [9, 31]-[1, 1]	open_list size: 71	 close_list size: 97	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [11, 29]-[1, 1]	open_list size: 75	 close_list size: 83	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [13, 30]-[1, 1]	open_list size: 76	 close_list size: 86	path_size: 21	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [15, 31]-[1, 1]	open_list size: 84	 close_list size: 126	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [17, 31]-[1, 1]	open_list size: 95	 close_list size: 105	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [19, 30]-[1, 1]	open_list size: 106	 close_list size: 123	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [21, 31]-[1, 1]	open_list size: 91	 close_list size: 87	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [23, 31]-[1, 1]	open_list size: 91	 close_list size: 90	path_size: 24	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [25, 31]-[1, 1]	open_list size: 93	 close_list size: 144	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [27, 31]-[1, 1]	open_list size: 96	 close_list size: 123	path_size: 27	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [29, 31]-[1, 1]	open_list size: 108	 close_list size: 111	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [31, 30]-[1, 1]	open_list size: 109	 close_list size: 111	path_size: 28	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [0, 30]-[1, 1]	open_list size: 75	 close_list size: 48	path_size: 21	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [2, 30]-[1, 1]	open_list size: 90	 close_list size: 59	path_size: 19	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [4, 29]-[1, 1]	open_list size: 105	 close_list size: 77	path_size: 16	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [6, 30]-[1, 1]	open_list size: 110	 close_list size: 65	path_size: 17	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [8, 30]-[1, 1]	open_list size: 117	 close_list size: 33	path_size: 15	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [10, 31]-[1, 1]	open_list size: 119	 close_list size: 41	path_size: 15	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [12, 30]-[1, 1]	open_list size: 126	 close_list size: 35	path_size: 16	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [14, 29]-[1, 1]	open_list size: 128	 close_list size: 37	path_size: 14	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [16, 30]-[1, 1]	open_list size: 144	 close_list size: 79	path_size: 14	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [18, 30]-[1, 1]	open_list size: 131	 close_list size: 76	path_size: 18	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [20, 30]-[1, 1]	open_list size: 142	 close_list size: 66	path_size: 18	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [22, 30]-[1, 1]	open_list size: 144	 close_list size: 73	path_size: 19	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [24, 31]-[1, 1]	open_list size: 144	 close_list size: 77	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [26, 30]-[1, 1]	open_list size: 149	 close_list size: 124	path_size: 22	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [28, 31]-[1, 1]	open_list size: 162	 close_list size: 92	path_size: 25	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [30, 31]-[1, 1]	open_list size: 167	 close_list size: 93	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [1, 30]-[1, 1]	open_list size: 76	 close_list size: 48	path_size: 21	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [3, 31]-[1, 1]	open_list size: 88	 close_list size: 61	path_size: 20	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [5, 30]-[1, 1]	open_list size: 118	 close_list size: 63	path_size: 17	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [7, 31]-[1, 1]	open_list size: 114	 close_list size: 37	path_size: 18	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [9, 31]-[1, 1]	open_list size: 116	 close_list size: 45	path_size: 15	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [11, 29]-[1, 1]	open_list size: 125	 close_list size: 34	path_size: 15	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [13, 30]-[1, 1]	open_list size: 121	 close_list size: 36	path_size: 13	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [15, 31]-[1, 1]	open_list size: 140	 close_list size: 61	path_size: 16	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [17, 31]-[1, 1]	open_list size: 142	 close_list size: 87	path_size: 15	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [19, 30]-[1, 1]	open_list size: 153	 close_list size: 93	path_size: 18	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [21, 31]-[1, 1]	open_list size: 144	 close_list size: 72	path_size: 19	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [23, 31]-[1, 1]	open_list size: 139	 close_list size: 79	path_size: 20	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [25, 31]-[1, 1]	open_list size: 141	 close_list size: 131	path_size: 23	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [27, 31]-[1, 1]	open_list size: 151	 close_list size: 113	path_size: 24	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [29, 31]-[1, 1]	open_list size: 166	 close_list size: 106	path_size: 26	
+../map_txt/Random_32x32_.3.txt	strat_point-target_point: [31, 30]-[1, 1]	open_list size: 167	 close_list size: 105	path_size: 25	
+strat_point-target_point: [0, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [1, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [2, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [3, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [4, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [5, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [6, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [7, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [8, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [9, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [10, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [11, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [12, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [13, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [14, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [15, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [16, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [17, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [18, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [19, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [20, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [21, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [22, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [23, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [24, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [25, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [26, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [27, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [28, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [29, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [30, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [31, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [0, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [1, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [2, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [3, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [4, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [5, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [6, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [7, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [8, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [9, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [10, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [11, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [12, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [13, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [14, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [15, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [16, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [17, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [18, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [19, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [20, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [21, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [22, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [23, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [24, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [25, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [26, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [27, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [28, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [29, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [30, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [31, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [0, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [1, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [2, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [3, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [4, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [5, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [6, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [7, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [8, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [9, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [10, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [11, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [12, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [13, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [14, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [15, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [16, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [17, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [18, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [19, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [20, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [21, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [22, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [23, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [24, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [25, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [26, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [27, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [28, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [29, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [30, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [31, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [0, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [1, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [2, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [3, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [4, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [5, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [6, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [7, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [8, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [9, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [10, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [11, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [12, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [13, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [14, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [15, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [16, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [17, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [18, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [19, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [20, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [21, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [22, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [23, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [24, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [25, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [26, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [27, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [28, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [29, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [30, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [31, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [0, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [1, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [2, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [3, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [4, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [5, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [6, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [7, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [8, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [9, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [10, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [11, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [12, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [13, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [14, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [15, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [16, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [17, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [18, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [19, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [20, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [21, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [22, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [23, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [24, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [25, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [26, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [27, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [28, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [29, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [30, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [31, 31]-[0, 0]	open_list size: 0	 close_list size: 31	path_size: 32	
+strat_point-target_point: [0, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [15, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [30, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [45, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [60, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [75, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [90, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [105, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [120, 498]-[0, 0]	open_list size: 0	 close_list size: 498	path_size: 499	
+strat_point-target_point: [135, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [150, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [165, 498]-[0, 0]	open_list size: 0	 close_list size: 498	path_size: 499	
+strat_point-target_point: [180, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [195, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [210, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [225, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [240, 498]-[0, 0]	open_list size: 0	 close_list size: 498	path_size: 499	
+strat_point-target_point: [255, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [270, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [285, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [300, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [315, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [330, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [345, 497]-[0, 0]	open_list size: 0	 close_list size: 497	path_size: 498	
+strat_point-target_point: [360, 498]-[0, 0]	open_list size: 0	 close_list size: 498	path_size: 499	
+strat_point-target_point: [375, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [390, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [405, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [420, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [435, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	
+strat_point-target_point: [475, 498]-[0, 0]	open_list size: 0	 close_list size: 498	path_size: 499	
+strat_point-target_point: [499, 499]-[0, 0]	open_list size: 0	 close_list size: 499	path_size: 500	

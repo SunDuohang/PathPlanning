@@ -41,64 +41,53 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/sunx/WorkSpace/CPPWork/PathPlanning/cmake-build-debug/
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target module_global_path_planning
-
-
-#############################################
-# Order-only phony target for module_global_path_planning
-
-build cmake_object_order_depends_target_module_global_path_planning: phony || CMakeFiles/module_global_path_planning.dir
-
-build CMakeFiles/module_global_path_planning.dir/src/utils.cpp.o: CXX_COMPILER__module_global_path_planning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/utils.cpp || cmake_object_order_depends_target_module_global_path_planning
-  DEP_FILE = CMakeFiles/module_global_path_planning.dir/src/utils.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -isystem /usr/local/include/opencv4
-  OBJECT_DIR = CMakeFiles/module_global_path_planning.dir
-  OBJECT_FILE_DIR = CMakeFiles/module_global_path_planning.dir/src
-
-build CMakeFiles/module_global_path_planning.dir/src/loadmap.cpp.o: CXX_COMPILER__module_global_path_planning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/loadmap.cpp || cmake_object_order_depends_target_module_global_path_planning
-  DEP_FILE = CMakeFiles/module_global_path_planning.dir/src/loadmap.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -isystem /usr/local/include/opencv4
-  OBJECT_DIR = CMakeFiles/module_global_path_planning.dir
-  OBJECT_FILE_DIR = CMakeFiles/module_global_path_planning.dir/src
-
-build CMakeFiles/module_global_path_planning.dir/src/Conv.cpp.o: CXX_COMPILER__module_global_path_planning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/Conv.cpp || cmake_object_order_depends_target_module_global_path_planning
-  DEP_FILE = CMakeFiles/module_global_path_planning.dir/src/Conv.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -isystem /usr/local/include/opencv4
-  OBJECT_DIR = CMakeFiles/module_global_path_planning.dir
-  OBJECT_FILE_DIR = CMakeFiles/module_global_path_planning.dir/src
-
-
-# =============================================================================
-# Link build statements for STATIC_LIBRARY target module_global_path_planning
-
-
-#############################################
-# Link the static library libmodule_global_path_planning.a
-
-build libmodule_global_path_planning.a: CXX_STATIC_LIBRARY_LINKER__module_global_path_planning_Release CMakeFiles/module_global_path_planning.dir/src/utils.cpp.o CMakeFiles/module_global_path_planning.dir/src/loadmap.cpp.o CMakeFiles/module_global_path_planning.dir/src/Conv.cpp.o || /usr/local/lib/libopencv_highgui.so.4.8.0 /usr/local/lib/libopencv_ml.so.4.8.0 /usr/local/lib/libopencv_objdetect.so.4.8.0 /usr/local/lib/libopencv_photo.so.4.8.0 /usr/local/lib/libopencv_stitching.so.4.8.0 /usr/local/lib/libopencv_video.so.4.8.0 /usr/local/lib/libopencv_videoio.so.4.8.0 /usr/local/lib/libopencv_imgcodecs.so.4.8.0 /usr/local/lib/libopencv_calib3d.so.4.8.0 /usr/local/lib/libopencv_dnn.so.4.8.0 /usr/local/lib/libopencv_features2d.so.4.8.0 /usr/local/lib/libopencv_flann.so.4.8.0 /usr/local/lib/libopencv_imgproc.so.4.8.0 /usr/local/lib/libopencv_core.so.4.8.0
-  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
-  OBJECT_DIR = CMakeFiles/module_global_path_planning.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = libmodule_global_path_planning.a
-  TARGET_PDB = module_global_path_planning.a.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target PathPlanning
 
 
 #############################################
 # Order-only phony target for PathPlanning
 
-build cmake_object_order_depends_target_PathPlanning: phony || cmake_object_order_depends_target_module_global_path_planning
+build cmake_object_order_depends_target_PathPlanning: phony || CMakeFiles/PathPlanning.dir
 
 build CMakeFiles/PathPlanning.dir/src/main.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/main.cpp || cmake_object_order_depends_target_PathPlanning
   DEP_FILE = CMakeFiles/PathPlanning.dir/src/main.cpp.o.d
   FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
-  INCLUDES = -isystem /usr/local/include/opencv4
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/AStar.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/AStar.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/AStar.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/utils.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/utils.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/utils.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/DataLoad.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/DataLoad.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/DataLoad.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/Conv.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/Conv.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/Conv.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/GridMap.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/GridMap.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/GridMap.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/PathPlanning.dir
+  OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
+
+build CMakeFiles/PathPlanning.dir/src/JumpPointSearch.cpp.o: CXX_COMPILER__PathPlanning_unscanned_Release /home/sunx/WorkSpace/CPPWork/PathPlanning/src/JumpPointSearch.cpp || cmake_object_order_depends_target_PathPlanning
+  DEP_FILE = CMakeFiles/PathPlanning.dir/src/JumpPointSearch.cpp.o.d
+  FLAGS = -O3 -DNDEBUG -std=gnu++1z -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/PathPlanning.dir
   OBJECT_FILE_DIR = CMakeFiles/PathPlanning.dir/src
 
@@ -110,9 +99,8 @@ build CMakeFiles/PathPlanning.dir/src/main.cpp.o: CXX_COMPILER__PathPlanning_uns
 #############################################
 # Link the executable PathPlanning
 
-build PathPlanning: CXX_EXECUTABLE_LINKER__PathPlanning_Release CMakeFiles/PathPlanning.dir/src/main.cpp.o | libmodule_global_path_planning.a /usr/local/lib/libopencv_highgui.so.4.8.0 /usr/local/lib/libopencv_ml.so.4.8.0 /usr/local/lib/libopencv_objdetect.so.4.8.0 /usr/local/lib/libopencv_photo.so.4.8.0 /usr/local/lib/libopencv_stitching.so.4.8.0 /usr/local/lib/libopencv_video.so.4.8.0 /usr/local/lib/libopencv_calib3d.so.4.8.0 /usr/local/lib/libopencv_dnn.so.4.8.0 /usr/local/lib/libopencv_features2d.so.4.8.0 /usr/local/lib/libopencv_flann.so.4.8.0 /usr/local/lib/libopencv_videoio.so.4.8.0 /usr/local/lib/libopencv_imgcodecs.so.4.8.0 /usr/local/lib/libopencv_imgproc.so.4.8.0 /usr/local/lib/libopencv_core.so.4.8.0 || libmodule_global_path_planning.a
+build PathPlanning: CXX_EXECUTABLE_LINKER__PathPlanning_Release CMakeFiles/PathPlanning.dir/src/main.cpp.o CMakeFiles/PathPlanning.dir/src/AStar.cpp.o CMakeFiles/PathPlanning.dir/src/utils.cpp.o CMakeFiles/PathPlanning.dir/src/DataLoad.cpp.o CMakeFiles/PathPlanning.dir/src/Conv.cpp.o CMakeFiles/PathPlanning.dir/src/GridMap.cpp.o CMakeFiles/PathPlanning.dir/src/JumpPointSearch.cpp.o
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/usr/local/lib  libmodule_global_path_planning.a  /usr/local/lib/libopencv_highgui.so.4.8.0  /usr/local/lib/libopencv_ml.so.4.8.0  /usr/local/lib/libopencv_objdetect.so.4.8.0  /usr/local/lib/libopencv_photo.so.4.8.0  /usr/local/lib/libopencv_stitching.so.4.8.0  /usr/local/lib/libopencv_video.so.4.8.0  /usr/local/lib/libopencv_calib3d.so.4.8.0  /usr/local/lib/libopencv_dnn.so.4.8.0  /usr/local/lib/libopencv_features2d.so.4.8.0  /usr/local/lib/libopencv_flann.so.4.8.0  /usr/local/lib/libopencv_videoio.so.4.8.0  /usr/local/lib/libopencv_imgcodecs.so.4.8.0  /usr/local/lib/libopencv_imgproc.so.4.8.0  /usr/local/lib/libopencv_core.so.4.8.0
   OBJECT_DIR = CMakeFiles/PathPlanning.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -145,8 +133,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build module_global_path_planning: phony libmodule_global_path_planning.a
-
 # =============================================================================
 # Folder targets.
 
@@ -155,7 +141,7 @@ build module_global_path_planning: phony libmodule_global_path_planning.a
 #############################################
 # Folder: /home/sunx/WorkSpace/CPPWork/PathPlanning/cmake-build-debug
 
-build all: phony libmodule_global_path_planning.a PathPlanning
+build all: phony PathPlanning
 
 # =============================================================================
 # Built-in targets
@@ -164,14 +150,14 @@ build all: phony libmodule_global_path_planning.a PathPlanning
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/sunx/WorkSpace/CPPWork/PathPlanning/CMakeLists.txt /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/sunx/WorkSpace/CPPWork/PathPlanning/CMakeLists.txt /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/sunx/WorkSpace/CPPWork/PathPlanning/CMakeLists.txt /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake /usr/local/lib/cmake/opencv4/OpenCVConfig.cmake /usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake /usr/local/lib/cmake/opencv4/OpenCVModules.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /home/sunx/WorkSpace/CPPWork/PathPlanning/CMakeLists.txt /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /opt/clion-2023.2.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################

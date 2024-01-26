@@ -13,133 +13,9 @@
 #include <cstring>
 #include <memory>
 #include <malloc.h>
-#include "./loadmap.h"
+#include "./DataLoad.h"
 #include "./List.hpp"
 #include "./DataStructure.hpp"
-
-/**
- *
- * @tparam T
- *
- * 对于grid map，到底什么是, 其map[y][x]
- */
-/*template <class T>
-struct Node{
-    Node(T x_cor, T y_cor){
-        x = x_cor;
-        y = y_cor;
-    }
-    Node(){
-        x = (T)0;
-        y = (T)0;
-    }
-
-    Node(Node<T> const &node){
-        x = node.x;
-        y = node.y;
-    }
-    ~Node()=default;
-    T x;
-    T y;
-};
-
-template <class T>
-class Record_Item{
-public:
-    Record_Item(Node<T> cur_cor, double g_value,  double f_value,Node<T> parent_cor, int p_index){
-        self_cur_cor = cur_cor;
-        self_g_value = g_value;
-        self_f_value = f_value;
-        self_parent_cor = parent_cor;
-        self_parent_index = p_index;
-    }
-    Record_Item(const T cur_cor[], double g_value, double f_value,const T parent_cor[], int p_index){
-//        if(2 != (sizeof(cur_cor) / sizeof(cur_cor[0]))){
-//            printf("Error: cur_cor or parent_cor is wrong!\n");
-//            exit(-1);
-//        }
-//        if(2 != (sizeof(parent_cor) / sizeof(parent_cor[0]))){
-//            printf("Error: cur_cor or parent_cor is wrong!\n");
-//            exit(-1);
-//        }
-        self_cur_cor = Node<T>(cur_cor[0],cur_cor[1]);  //这里面有个问题就是，谁是x，谁是y
-        self_g_value = g_value;
-        self_f_value = f_value;
-        self_parent_cor = Node<T>(parent_cor[0], parent_cor[1]);
-        self_parent_index = p_index;
-    }
-    Record_Item(Record_Item<T> const &item, int p_index){
-        self_cur_cor = Node<T>(item.self_cur_cor);
-        self_g_value = item.self_g_value;
-        self_f_value = item.self_f_value;
-        self_parent_cor = Node<T>(item.self_parent_cor);
-        self_parent_index = p_index;
-    }
-
-    ~Record_Item(){
-        self_cur_cor.~Node();
-        self_parent_cor.~Node();
-    };
-    Node<T> self_cur_cor;
-    double self_g_value = 0.0;
-    double self_f_value = 0.0;
-    Node<T> self_parent_cor;
-    int self_parent_index;
-};
-
-template <class T>
-class Open_list_Item{
-    Open_list_Item(const T cur_cor[], double g_value, double f_value){
-        self_cur_cor = Node<T>(cur_cor[0],cur_cor[1]);
-        self_g_value = g_value;
-        self_f_value = f_value;
-    }
-    Open_list_Item(Node<T> cur_cor, double g_value, double f_value){
-        self_cur_cor = cur_cor;
-        self_g_value = g_value;
-        self_f_value = f_value;
-    }
-    ~Open_list_Item()=default;
-    Node<T> self_cur_cor;
-    double self_g_value = 0.0;
-    double self_f_value = 0.0;
-};*/
-
-template<class T>
-struct greater1{
-    constexpr bool operator()(Record_Item<T> lhs, const Record_Item<T>& rhs ) const{
-        return lhs.self_f_value > rhs.self_f_value;
-    }
-};
-
-template<class T>
-struct greater2{
-    constexpr bool operator()(Open_list_Item<T> lhs, const Open_list_Item<T>& rhs ) const{
-        return lhs.self_f_value > rhs.self_f_value;
-    }
-};
-
-template <class T>
-struct less1{
-    constexpr bool operator()(Record_Item<T> lhs, const Record_Item<T>& rhs ) const{
-        return lhs.self_f_value < rhs.self_f_value;
-    }
-};
-
-template <class T>
-struct less2{
-    constexpr bool operator()(Open_list_Item<T> lhs, const Open_list_Item<T>& rhs ) const{
-        return lhs.self_f_value < rhs.self_f_value;
-    }
-};
-
-template <class T>
-struct equal1{
-    constexpr bool operator()(Node<T> lhs, const Node<T>& rhs ) const{
-        return (lhs.x == rhs.x && lhs.y == rhs.y);
-    }
-};
-
 
 template <class T1, class T2>
 class Astar{
@@ -149,8 +25,7 @@ private:
     int map_Xsize{};
     int map_Ysize{};
     std::string s;
-//    std::vector<Record_Item<T>> queue_;
-    //std::map<std::string, std::vector<List>  > offsets_dict;
+
     int offsets[32][2] = {{0, -1,},{1, 0}, {0, 1}, {-1, 0},
                           {1, -1}, {1, 1}, {-1, 1}, {-1, -1},
                           {1, -2}, {2, -1},{2, 1},{1, 2},
@@ -159,38 +34,39 @@ private:
                           {3, 1}, {3, 2}, {2, 3}, {1, 3},
                           {-1, 3}, {-2, 3}, {-3, 2}, {-3, 1},
                           {-3, -1}, {-3, -2}, {-2, -3}, {-1, -3}};
+
     short new_offsets[32][9] = {{0, -1, 0, 0, 0, 0, 0, 0, 1},
-                                 {1, 0, 0, 0, 0, 0, 0, 0, 1},
-                                 {0, 1, 0, 0, 0, 0, 0, 0, 1},
-                                 {-1, 0, 0, 0, 0, 0, 0, 0, 1},
-                                 {1, -1, 0, 0, 0, 0, 0, 0, 1},
-                                 {1, 1, 0, 0, 0, 0, 0, 0, 1},
-                                 {-1, 1, 0, 0, 0, 0, 0, 0, 1},
-                                 {-1, -1, 0, 0, 0, 0, 0, 0, 1},
-                                 {0, -1, 1, -1, 1, -2, 0, 0, 3},
-                                 {1, 0, 1, -1, 2, -1, 0, 0, 3},
-                                 {1, 0, 1, 1, 2, 1, 0, 0, 3},
-                                 {0, 1, 1, 1, 1, 2, 0, 0, 3},
-                                 {0, 1, -1, 1, -1, 2, 0, 0, 3},
-                                 {-1, 0, -1, 1, -2, 1, 0, 0, 3},
-                                 {-1, 0, -1, -1, -2, -1, 0, 0, 3},
-                                 {0, -1, -1, -1, -1, -2, 0, 0, 3},
-                                 {0, -1, 1, -2, 1, -3, 0, 0, 3},
-                                 {0, -1, 1, -1, 1, -2, 2, -2, 5},
-                                 {1, 0, 1, -1, 2, -1, 2, -2, 5},
-                                 {1, 0, 2, -1, 3, -1, 0, 0, 3},
-                                 {1, 0, 2, 1, 3, 1, 0, 0, 3},
-                                 {1, 0, 1, 1, 2, 1, 2, 2, 5},
-                                 {0, 1, 1, 1, 1, 2, 2, 2, 5},
-                                 {0, 1, 1, 2, 1, 3, 0, 0, 3},
-                                 {0, 1, -1, 2, -1, 3, 0, 0, 3},
-                                 {0, 1, -1, 1, -1, 2, -2, 2, 5},
-                                 {-1, 0, -1, 1, -2, 1, -2, 2, 5},
-                                 {-1, 0, -2, 1, -3, 1, 0, 0, 3},
-                                 {-1, 0, -2, -1, -3, -1, 0, 0, 3},
-                                 {-1, 0, -1, -1, -2, -1, -2, -2, 5},
-                                 {0, -1, -1, -1, -1, -2, -2, -2, 5},
-                                 {0, -1, -1, -2, -1, -3, 0, 0, 3}};
+                                {1, 0, 0, 0, 0, 0, 0, 0, 1},
+                                {0, 1, 0, 0, 0, 0, 0, 0, 1},
+                                {-1, 0, 0, 0, 0, 0, 0, 0, 1},
+                                {1, -1, 0, 0, 0, 0, 0, 0, 1},
+                                {1, 1, 0, 0, 0, 0, 0, 0, 1},
+                                {-1, 1, 0, 0, 0, 0, 0, 0, 1},
+                                {-1, -1, 0, 0, 0, 0, 0, 0, 1},
+                                {0, -1, 1, -1, 1, -2, 0, 0, 3},
+                                {1, 0, 1, -1, 2, -1, 0, 0, 3},
+                                {1, 0, 1, 1, 2, 1, 0, 0, 3},
+                                {0, 1, 1, 1, 1, 2, 0, 0, 3},
+                                {0, 1, -1, 1, -1, 2, 0, 0, 3},
+                                {-1, 0, -1, 1, -2, 1, 0, 0, 3},
+                                {-1, 0, -1, -1, -2, -1, 0, 0, 3},
+                                {0, -1, -1, -1, -1, -2, 0, 0, 3},
+                                {0, -1, 1, -2, 1, -3, 0, 0, 3},
+                                {0, -1, 1, -1, 1, -2, 2, -2, 4},
+                                {1, 0, 1, -1, 2, -1, 2, -2, 4},
+                                {1, 0, 2, -1, 3, -1, 0, 0, 3},
+                                {1, 0, 2, 1, 3, 1, 0, 0, 3},
+                                {1, 0, 1, 1, 2, 1, 2, 2, 4},
+                                {0, 1, 1, 1, 1, 2, 2, 2, 4},
+                                {0, 1, 1, 2, 1, 3, 0, 0, 3},
+                                {0, 1, -1, 2, -1, 3, 0, 0, 3},
+                                {0, 1, -1, 1, -1, 2, -2, 2, 4},
+                                {-1, 0, -1, 1, -2, 1, -2, 2, 4},
+                                {-1, 0, -2, 1, -3, 1, 0, 0, 3},
+                                {-1, 0, -2, -1, -3, -1, 0, 0, 3},
+                                {-1, 0, -1, -1, -2, -1, -2, -2, 4},
+                                {0, -1, -1, -1, -1, -2, -2, -2, 4},
+                                {0, -1, -1, -2, -1, -3, 0, 0, 3}};
 
 //    short new_offsets[32][11] = {{0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
 //                                {1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -285,9 +161,8 @@ std::pair<std::vector<Node<T1> >, double> Astar<T1, T2>::run(const char* filenam
     load_map(filename, map, map_xsize, map_ysize);
     std::vector<Record_Item<T1> > close_list;
     std::vector<Record_Item<T1> > open_list;
-    Node<T1> self_start_point = start_point;
-    Node<T1> self_target_point = target_point;
-
+//    Node<T1> self_start_point = start_point;
+//    Node<T1> self_target_point = target_point;
 
 //    // 该部分可以删除
 //    std::fstream openlist_output(R"(../output/open_list.txt)", std::ios_base::out | std::ios_base::app);
@@ -352,18 +227,18 @@ std::pair<std::vector<Node<T1> >, double> Astar<T1, T2>::run(const char* filenam
         if (target_point.x == cur_node.x && target_point.y == cur_node.y){
             auto result = construct_path(close_list, cur_node);
 
-//            //该部分可以删除
-//            std::string output_filename = R"(../output/record_log.txt)";
-//            std::fstream record_output(output_filename, std::ios_base::out | std::ios_base::app);
-//            std::stringstream out_string;
-//            out_string << filename << "\t";
-//            out_string << "strat_point-target_point: [" << start_point.x << ", " << start_point.y << "]-[" << target_point.x << ", " << target_point.y << "]" << "\t";
-//            out_string << "open_list size: " << open_list.size() << "\t close_list size: " << close_list.size() << "\t" ;
-//            out_string << "path_size: " << result.first.size() << "\t";
-//            record_output << out_string.str() << std::endl;
-//            out_string.clear();
-//            out_string.str("");
-//            record_output.close();
+            //该部分可以删除
+            std::string output_filename = R"(../output/record_log.txt)";
+            std::fstream record_output(output_filename, std::ios_base::out | std::ios_base::app);
+            std::stringstream out_string;
+            out_string << filename << "\t";
+            out_string << "strat_point-target_point: [" << start_point.x << ", " << start_point.y << "]-[" << target_point.x << ", " << target_point.y << "]" << "\t";
+            out_string << "open_list size: " << open_list.size() << "\t close_list size: " << close_list.size() << "\t" ;
+            out_string << "path_size: " << result.first.size() << "\t";
+            record_output << out_string.str() << std::endl;
+            out_string.clear();
+            out_string.str("");
+            record_output.close();
 //            openlist_output.close();
 
             for(int i = 0; i < map_xsize; i++)
@@ -420,14 +295,14 @@ std::pair<std::vector<Node<T1> >, double> Astar<T1, T2>::run(const char* filenam
     std::vector<Node<T1> > path;
     double cost = -1.0;
 
-//    std::string output_filename = R"(../output/record_log.txt)";
-//    std::fstream record_output(output_filename, std::ios_base::out | std::ios_base::app);
-//    std::stringstream out_string;
-//    out_string << "strat_point-target_point: [" << start_point.x << ", " << start_point.y << "]-[" << target_point.x << ", " << target_point.y << "]" << "\t ";
-//    out_string << "open_list size: " << open_list.size() << "\t close_list size: " << close_list.size() << "\t" ;
-//    out_string << "path_size: " << path.size() << std::endl ;
-//    record_output << out_string.str() << std::endl;
-//    record_output.close();
+    std::string output_filename = R"(../output/record_log.txt)";
+    std::fstream record_output(output_filename, std::ios_base::out | std::ios_base::app);
+    std::stringstream out_string;
+    out_string << "strat_point-target_point: [" << start_point.x << ", " << start_point.y << "]-[" << target_point.x << ", " << target_point.y << "]" << "\t ";
+    out_string << "open_list size: " << open_list.size() << "\t close_list size: " << close_list.size() << "\t" ;
+    out_string << "path_size: " << path.size() << std::endl ;
+    record_output << out_string.str() << std::endl;
+    record_output.close();
 
     open_list.clear();
     open_list.shrink_to_fit();
@@ -518,7 +393,6 @@ std::vector<Node<T1> > Astar<T1, T2>::get_neighbors_new(T1** map, int map_xsize,
     }
     return neighbors;
 };
-
 
 
 /**
